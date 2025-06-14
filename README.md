@@ -12,4 +12,5 @@
 [𝐋𝐄𝐆𝐈𝐓 𝐅𝐈𝐕𝐄𝐌 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 | ᵖᵒʷᵉʳᵉᵈ ᵇʸ ᴸᴺⱽ](https://discord.gg/QR4az8AcZP)
 
 ---
+![Preview Tool Main Menu](https://github.com/user-attachments/assets/0f565491-5d09-42e3-a973-04e29e8000c1)
 ---
