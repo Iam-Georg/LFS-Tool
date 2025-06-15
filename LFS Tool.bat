@@ -116,7 +116,7 @@ echo.                                       ----------LFS---WIFITOPTI---V1------
 echo.                                                      by  Georg
 echo.                                       =========================================
 echo.
-echo.                                       This script will optimize your ping OR internet speed.
+echo.                                                 Ping OR WiFi speed.
 echo.                                       Both at the same time is not possible.
 echo.
 echo.                                            1. Optimize Ping
