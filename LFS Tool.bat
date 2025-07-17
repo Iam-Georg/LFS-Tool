@@ -1,5 +1,4 @@
 @echo off
-:: Check for admin rights
 net session >nul 2>&1
 if %errorlevel% neq 0 (
     echo Requesting administrative privileges...
@@ -8,7 +7,6 @@ if %errorlevel% neq 0 (
 )
 :MENU
 cls
-::color 04
 echo.
 echo.                                       =======================================
 echo.                                       ------------LFS---TOOL---V1------------
@@ -32,7 +30,6 @@ if "%choice%"=="3" goto EXIT
 
 :MENU-CLEANER
 cls
-::color 04
 echo.
 echo.                                       ======================================
 echo.                                       ----------LFS---CLEANER---V1----------
@@ -49,7 +46,6 @@ echo.                                       ====================================
 set choice=
 set /p choice=                                      Choose an option (1-4): 
 
-:: Wenn keine Eingabe oder "4" -> EXIT
 if "%choice%"=="" goto MENU
 if "%choice%"=="4" goto MENU
 
@@ -109,7 +105,6 @@ goto MENU
 
 :MENU-WiFi
 cls
-::color 04
 echo.
 echo.                                       =========================================
 echo.                                       ----------LFS---WIFITOPTI---V1----------
@@ -131,7 +126,6 @@ echo.                                       ====================================
 set choice=
 set /p choice=                                      Choose an option (1-4): 
 
-:: If no input or "4" -> EXIT
 if "%choice%"=="" goto MENU
 if "%choice%"=="4" goto MENU
 
@@ -152,7 +146,6 @@ goto MENU
 :Check
 cls
 netsh interface tcp show global
-::REM Change color to yellow for the next two lines
 echo|set /p="[32m"
 echo.                                       Auto-Tuning Level normal == better speed
 echo.                                       Auto-Tuning Level disabled == better ping
